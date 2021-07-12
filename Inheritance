@@ -1,0 +1,18 @@
+Class Animal{
+Public void move(){
+System.out.println(“Animals can move”);
+}
+}
+Class Dog extends Animal{
+Public void move(){
+System.out.println(“Dogs can walk and run”);
+}
+}
+Public class TestDog{
+Public static void main(/String args[]){
+Animal a=new Animal();// Animal reference and object
+Animal b=new Dog();
+A. move(); //runs the method in Animal class
+B. Move();//runs the method in Dog class
+}
+}
